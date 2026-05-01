@@ -1,0 +1,87 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    color: white;
+    overflow: hidden;
+
+    background-image: 
+        linear-gradient(
+            to right,
+            #020c1b 0%,
+            rgba(2,12,27,0.95) 35%,
+            rgba(2,12,27,0.75) 50%,
+            rgba(2,12,27,0.35) 65%,
+            rgba(2,12,27,0.0) 80%
+        ),
+        url("/img-contadora.png");
+
+    background-size: cover;
+    background-position: center right bottom;
+    background-repeat: no-repeat;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -1px;
+    max-width: 520px;
+    margin-bottom: 20px;
+}
+.benefit svg {
+    width: 28px;
+    height: 28px;
+    color: #1e5fa3;
+}
+
+.hero span {
+    color: #2b81cc;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    max-width: 520px;
+}
+
+.hero-benefits {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    gap: 10px ;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #cbd5e1;
+}
+
+.hero-btn {
+    margin-top: 10px;
+    background: linear-gradient(180deg, #3b82f6, #1e40af);
+    padding: 16px 26px;
+    border-radius: 12px;
+    font-weight: 600;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+}
+strong{
+     color: #2b81cc;
+}

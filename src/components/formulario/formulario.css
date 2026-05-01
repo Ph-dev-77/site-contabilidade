@@ -1,0 +1,157 @@
+/* logo */
+.logo{
+  height: 97px;
+  width: 143px;
+  padding: 2px;
+  
+}
+/* CORES BASE */
+
+
+/* Fundo */
+.app {
+  margin-top: 80px;
+  min-height: 100vh;
+ background: linear-gradient(to right, #000c1e 0%, #011034 50%, #013082 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Títulos */
+.app h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.app h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.app h4 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+/* Card do formulário */
+.card {
+  background: #f5f5f5;
+  padding: 24px;
+  border-radius: 12px;
+  width: 350px;
+  color: #333;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Erros */
+.input-group p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Título escolha */
+.card .text-de-escolha {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  
+}
+
+/* Grupo de radios */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Cada linha */
+.radio-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Label */
+.radio-item label {
+  font-size: 14px;
+  flex: 1;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Radio */
+.radio-item input {
+  margin-left: 10px;
+}
+
+/* Botão principal */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+ background: rgba(3, 31, 69, 0.95);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #002865;
+}
+
+/* Botão desabilitado */
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Box de sucesso */
+.list-lead {
+  background: #fff;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+
+}
+.list-lead p{
+  font-family: Arial, sans-serif;
+  
+}
+
+.dados-do-cadastro {
+  margin-bottom: 40px;
+ 
+}
+
+/* Botão secundário */
+.list-lead button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: rgba(3, 31, 69, 0.95);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
