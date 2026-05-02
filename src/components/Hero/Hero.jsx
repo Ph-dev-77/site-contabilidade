@@ -1,4 +1,4 @@
-import './hero.css';
+import './Hero.css';
 import { ShieldCheck, Clock, TrendingUp } from "lucide-react";
 
 function Hero() {
