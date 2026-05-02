@@ -1,6 +1,6 @@
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Header-temp";
 import Hero from "./components/Hero/Hero";
-import Formulario from "./components/Formulario/Formulario-temp";
+import Formulario from "./components/Formulario/Formulario";
 
 function App() {
   return (
