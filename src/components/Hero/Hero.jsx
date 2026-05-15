@@ -35,7 +35,11 @@ function Hero() {
         </div>
 
         {/* BOTÃO */}
-        <a href="#formulario" className="hero-btn">
+        <a href="https://wa.me/5511981845984?text=Olá,%20acessei%20o%20site%20da%20Siqueira%20Regulariza%20e%20quero%20agendar%20minha%20consulta%20gratuita." 
+        className="hero-btn" 
+        target='_blank'
+        rel="noopener noreferrer"
+        >
           Solicitar consulta gratuita
         </a>
       </div>
