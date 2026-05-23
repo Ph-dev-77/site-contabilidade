@@ -14,22 +14,22 @@ function Servicos(){
         },
 
         {
-            titulo: 'Abertura de empresa',
+            titulo: ' Consultoria',
             descricao: 'Abrimos sua empresa com rapidez e segurança, cuidando de toda a documentação necessária.'
         },
 
         {
-            titulo: 'Abertura de empresa',
+            titulo: 'Imposto',
             descricao: 'Abrimos sua empresa com rapidez e segurança, cuidando de toda a documentação necessária.'
         },
 
         {
-            titulo: 'Abertura de empresa',
+            titulo: 'MEI',
             descricao: 'Abrimos sua empresa com rapidez e segurança, cuidando de toda a documentação necessária.'
         },
 
         {
-            titulo: 'Abertura de empresa',
+            titulo: 'Simples nacional',
             descricao: 'Abrimos sua empresa com rapidez e segurança, cuidando de toda a documentação necessária.'
         },
     ]
