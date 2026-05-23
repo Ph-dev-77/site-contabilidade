@@ -92,35 +92,38 @@ body {
   
 }
 
-/* Grupo de radios */
+/* Grupo radios */
 .radio-group {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
-/* Cada linha */
+/* Linha */
 .radio-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  gap: 10px;
 }
 
 /* Label */
 .radio-item label {
   font-size: 14px;
-  flex: 1;
-  text-align: left;
-  width: 100%;
   cursor: pointer;
 }
 
 /* Radio */
-.radio-item input {
-  margin-left: 10px;
+.radio-item input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
 }
 
+/* Radio */
+/*.radio-item input {
+  margin-left: 10px;
+}
+/*
 /* Botão principal */
 button[type="submit"] {
   width: 100%;
