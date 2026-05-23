@@ -1,0 +1,61 @@
+.servicos{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 120px 80px;
+    background: linear-gradient(to right, #020c1b, #041e42);
+
+    color: white;
+}
+
+.servicos-container{
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px; 
+}
+
+.servicos-conteudo h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+    color: white;
+
+}
+
+.servicos p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+
+    color: #d0d7e2;
+
+    max-width: 700px;
+}
+
+.arrow-btn{
+    width: 70px;
+    height: 70px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.08);
+    
+    backdrop-filter: blur(10px);
+
+      display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}

@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Formulario from "./components/Formulario/Formulario";
+import Servicos from "./components/Serviços/Servicos";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Formulario />
+      <Servicos />
     </>
   );
 }
