@@ -173,7 +173,7 @@ function Formulario() {
                             </label>
 
                             <input
-                                className='servicos'
+                               
                                 type="radio"
                                 name="servico"
                                 id="Consultoria"
@@ -194,7 +194,7 @@ function Formulario() {
                             </label>
 
                             <input
-                                className='servicos'
+                              
                                 type="radio"
                                 name="servico"
                                 id="Imposto"
@@ -214,7 +214,7 @@ function Formulario() {
                             </label>
 
                             <input
-                                className='servicos'
+                             
                                 type="radio"
                                 name="servico"
                                 id="MEI"
@@ -235,7 +235,7 @@ function Formulario() {
 
 
                             <input
-                                className='servicos'
+                                
                                 type="radio"
                                 name="servico"
                                 id="Simples-nacional"
