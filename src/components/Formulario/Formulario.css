@@ -95,7 +95,7 @@ body {
 .radio-group {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 /* Linha */
@@ -103,6 +103,7 @@ body {
   display: flex;
   align-items: center;
   gap:10px;
+  justify-content: space-between;
 }
 
 /* Label */
