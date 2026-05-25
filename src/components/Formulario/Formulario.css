@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+ 
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -30,7 +29,8 @@ body {
 
 /* Fundo */
 .app {
-  margin-top: 80px;
+  padding-top: 50px;
+  border-top: 1px solid #fff ;
  background: linear-gradient(to right, #000c1e 0%, #011034 50%, #013082 100%);
   display: flex;
   flex-direction: column;
