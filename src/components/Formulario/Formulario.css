@@ -1,11 +1,13 @@
 * {
- 
+
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
 body {
   background: #041e42;
 }
+
 /*
 body {
   
@@ -18,20 +20,21 @@ body {
 
 
 /* logo */
-.logo{
+.logo {
   height: 97px;
   width: 143px;
   padding: 2px;
-  
+
 }
+
 /* CORES BASE */
 
 
 /* Fundo */
 .app {
-  padding-top: 50px;
-  border-top: 1px solid #fff ;
- background: linear-gradient(to right, #000c1e 0%, #011034 50%, #013082 100%);
+  padding-top: 120px;
+  border-top: 1px solid #fff;
+  background: linear-gradient(to right, #000c1e 0%, #011034 50%, #013082 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +91,7 @@ body {
 .card .text-de-escolha {
   margin-top: 30px;
   margin-bottom: 15px;
-  
+
 }
 
 /* Grupo radios */
@@ -102,7 +105,7 @@ body {
 .radio-item {
   display: flex;
   align-items: center;
-  gap:10px;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -129,7 +132,7 @@ button[type="submit"] {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
- background: rgba(3, 31, 69, 0.95);
+  background: rgba(3, 31, 69, 0.95);
   color: white;
   border: none;
   border-radius: 8px;
@@ -157,14 +160,15 @@ button:disabled {
   text-align: left;
 
 }
-.list-lead p{
+
+.list-lead p {
   font-family: Arial, sans-serif;
-  
+
 }
 
 .dados-do-cadastro {
   margin-bottom: 40px;
- 
+
 }
 
 /* Botão secundário */

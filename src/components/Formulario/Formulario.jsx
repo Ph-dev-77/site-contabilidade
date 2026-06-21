@@ -65,7 +65,7 @@ function Formulario() {
                         return
                     }
 
-                    //linpa erros se estiver tudo certo
+                    //limpa erros se estiver tudo certo
                     setErros({});
 
                     const dados = {

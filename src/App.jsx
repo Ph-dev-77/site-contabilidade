@@ -8,8 +8,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Formulario />
       <Servicos />
+      <Formulario />
     </>
   );
 }
