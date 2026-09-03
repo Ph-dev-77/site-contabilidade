@@ -47,7 +47,7 @@ Inicie o servidor de desenvolvimento:
 
 Bash
 npm run dev
-Abra o navegador no endereço exibido no terminal (ex: http://localhost:5173).
+Abra o navegador no endereço exibido no terminal (https://siqueira-regulariza.vercel.app/).
 
 ⚡ Scripts Disponíveis
 npm run dev — Inicia o ambiente de desenvolvimento local
